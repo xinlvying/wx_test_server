@@ -14,6 +14,7 @@ app.use(async ctx => {
   let ctx_query = ctx.query
   let ctx_querystring = ctx.querystring
 
+  console.log(req_query.echostr)
   ctx.body = {
     echostr: req_query.echostr
   }
