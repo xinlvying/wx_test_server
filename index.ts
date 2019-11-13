@@ -8,7 +8,4 @@ app.use(async (ctx: Application.BaseContext) => {
   ctx.body = "wx_dev_test"
 })
 
-// app.request({})
-// app.re
-
 app.listen(80)
